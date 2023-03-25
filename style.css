@@ -1,0 +1,276 @@
+body {
+    margin: 0px;
+}
+ 
+#body-header {
+    height: 65vh;
+    opacity: 0.7;
+    background-image: url(background.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.list li {
+    display: inline-block;
+    margin: 30px 15px 0px 0px;
+
+}
+
+.list li a {
+    color: green;
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.list li a:hover {
+    color: red;
+    border-bottom: 1px solid cyan;
+}
+
+#nameicon {
+    margin-top: 10vh;
+}
+
+.myname {
+    letter-spacing: 10px; 
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700px;
+    margin-bottom: 0.5rem;
+
+}
+
+.icon {
+    margin-top: 10vh;
+
+    text-align: center;
+
+}
+
+.icon a {
+    margin-right: 25px;
+    text-align: center;
+}
+
+.icon a:hover {
+    box-shadow: 0px 7px 16px 14px rgb(233, 142, 5);
+    border-radius: 50%;
+}
+section {
+   
+    width: 100%;
+   display: flex;
+   flex-direction:column ;
+}
+section:nth-child(2n){
+    background-color: #9e9b9b29;
+}
+section:nth-child(2n+1){
+    background-color: white;
+} 
+#About { height: auto;
+    width:100%;
+    position: relative;
+    text-align: center; 
+   
+}
+
+
+#image {
+
+    margin-top: -18vh;
+  
+}
+#image img{
+   
+    height: 26rem;
+    width:24rem;
+    border: 3px ;
+     box-shadow:0px 2px 8px 3px #cce7eb ;
+    border-radius: 49%;
+    
+}
+#para { 
+   
+    margin-top: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 60px;
+ }
+ #skill{ margin-top: 35px;
+  background-color: #e6a5d840;
+
+ }
+ .header{ 
+    text-align: center;
+ }
+ .header img{
+   margin-bottom: -7px;
+ }
+ .header span{
+     font-size: 59px;
+ }
+ .displayskill{ 
+    margin-top: 35px;
+    width: 50%;
+    text-align: center;
+    align-self:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+ }
+ .progress{
+    height: 37px;
+    width: 180px;
+    border-radius: 35px 35px 35px 35px;
+    background-color:lightslategray;
+ margin: 30px;
+ }
+.indicator1{
+ width:155px;
+ background-color:blue ;
+ height: inherit;
+ border-radius: 35px 35px 35px 35px ;
+}
+.name{
+    color: white;
+    font-size: 23px;
+ text-align:  center;   
+}
+.indicator2{
+    width:120px;
+    background-color:#eb2fa5de;
+    height: inherit;
+    border-radius: 35px 35px 35px 35px ;
+   }
+   .indicator3{
+    width:165px;
+    background-color:#d03434a8;
+    height: inherit;
+    border-radius: 35px 35px 35px 35px ;
+   }
+   .indicator4{
+    width:140px;
+    background-color: #59a7de;
+    height: inherit;
+    border-radius: 35px 35px 35px 35px ;
+   }
+   .indicator5{
+    width:80px;
+    background-color:#0eed31a3;
+    height: inherit;
+    border-radius: 35px 35px 35px 35px ;
+   }
+   .indicator6{
+    width:150px;
+    background-color: #ffff00a6;
+    height: inherit;
+    border-radius: 35px 35px 35px 35px ;
+   }
+   #education{
+    margin-top: 35px;
+
+    
+  }
+ .eduhead{
+    font-size: 59px;
+    text-align: center;
+ }
+ .eduhead img{margin-bottom: -7px;
+
+ }
+
+ .edupart1 {
+   
+  
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:#ebeea7d6;
+    
+ }
+ .btech{ height: 300px;
+      width: 48%;
+  background-color: #cf92dc87;
+   border: 2px solid black;
+ }
+ .intermediate{
+    height: 300px;
+    width: 48%;
+      background-color:#cf92dc87;
+      border: 2px solid black;
+      margin-top: 300px;
+      
+ }
+ .edupart2 {
+  
+  
+   
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    background-color: #ebeea7d6;
+}
+
+.matriculation{ height: 300px;
+    width: 48%;
+background-color: #cf92dc87;
+ border: 2px solid black;
+}
+.primary{
+  height: 300px;
+  width: 48%;
+    background-color: #cf92dc87;
+    border: 2px solid black;
+    margin-top: 300px;
+   
+}
+.bt{
+    font-family: serif;
+   
+    font-size: 50px;
+    margin-left: 33px;
+    margin-top: 7px;
+    color: brown;
+}
+.clg{
+    font-size: 22px;
+    margin-left: 52px;
+    margin-top: -51px;
+    color: brown;
+}
+  .yr{
+    font-family: serif;
+   
+    font-size: 22px;
+    margin-left:65px;
+    margin-top: -16px;
+    color: brown;
+  }
+  .info{ 
+    font-size:18px ;
+    text-align: center;
+  }
+
+  .inter{ font-family: serif;
+   
+    font-size: 50px;
+    margin-left: 33px;
+    margin-top: 7px;
+    color: brown;
+
+  }
